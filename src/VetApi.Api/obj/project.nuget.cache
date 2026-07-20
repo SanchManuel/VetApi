@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jbJuQUQ0tck=",
+  "success": true,
+  "projectFilePath": "/home/dragon/proyectos/net/vetApi/src/VetApi.Api/VetApi.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/dragon/.nuget/packages/microsoft.aspnetcore.openapi/10.0.9/microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "/home/dragon/.nuget/packages/microsoft.openapi/2.7.5/microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
