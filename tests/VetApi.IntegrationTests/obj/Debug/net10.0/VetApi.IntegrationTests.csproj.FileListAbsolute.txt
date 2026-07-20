@@ -111,3 +111,9 @@
 /home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/obj/Debug/net10.0/VetApi.IntegrationTests.pdb
 /home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/obj/Debug/net10.0/VetApi.IntegrationTests.genruntimeconfig.cache
 /home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/obj/Debug/net10.0/ref/VetApi.IntegrationTests.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/bin/Debug/net10.0/Npgsql.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.IntegrationTests/obj/Debug/net10.0/VetApi.IntegrationTests.sourcelink.json

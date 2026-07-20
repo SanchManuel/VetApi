@@ -99,3 +99,4 @@
 /home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/obj/Debug/net10.0/VetApi.UnitTests.pdb
 /home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/obj/Debug/net10.0/VetApi.UnitTests.genruntimeconfig.cache
 /home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/obj/Debug/net10.0/ref/VetApi.UnitTests.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/obj/Debug/net10.0/VetApi.UnitTests.sourcelink.json

@@ -9,3 +9,4 @@
 /home/dragon/proyectos/net/vetApi/src/VetApi.Domain/obj/Debug/net10.0/refint/VetApi.Domain.dll
 /home/dragon/proyectos/net/vetApi/src/VetApi.Domain/obj/Debug/net10.0/VetApi.Domain.pdb
 /home/dragon/proyectos/net/vetApi/src/VetApi.Domain/obj/Debug/net10.0/ref/VetApi.Domain.dll
+/home/dragon/proyectos/net/vetApi/src/VetApi.Domain/obj/Debug/net10.0/VetApi.Domain.sourcelink.json

@@ -13,3 +13,4 @@
 /home/dragon/proyectos/net/vetApi/src/VetApi.Application/obj/Debug/net10.0/refint/VetApi.Application.dll
 /home/dragon/proyectos/net/vetApi/src/VetApi.Application/obj/Debug/net10.0/VetApi.Application.pdb
 /home/dragon/proyectos/net/vetApi/src/VetApi.Application/obj/Debug/net10.0/ref/VetApi.Application.dll
+/home/dragon/proyectos/net/vetApi/src/VetApi.Application/obj/Debug/net10.0/VetApi.Application.sourcelink.json

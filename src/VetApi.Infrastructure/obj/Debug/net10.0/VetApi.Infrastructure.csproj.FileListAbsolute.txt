@@ -15,3 +15,6 @@
 /home/dragon/proyectos/net/vetApi/src/VetApi.Infrastructure/obj/Debug/net10.0/refint/VetApi.Infrastructure.dll
 /home/dragon/proyectos/net/vetApi/src/VetApi.Infrastructure/obj/Debug/net10.0/VetApi.Infrastructure.pdb
 /home/dragon/proyectos/net/vetApi/src/VetApi.Infrastructure/obj/Debug/net10.0/ref/VetApi.Infrastructure.dll
+/home/dragon/proyectos/net/vetApi/src/VetApi.Infrastructure/bin/Debug/net10.0/VetApi.Infrastructure.runtimeconfig.json
+/home/dragon/proyectos/net/vetApi/src/VetApi.Infrastructure/obj/Debug/net10.0/VetApi.Infrastructure.sourcelink.json
+/home/dragon/proyectos/net/vetApi/src/VetApi.Infrastructure/obj/Debug/net10.0/VetApi.Infrastructure.genruntimeconfig.cache
