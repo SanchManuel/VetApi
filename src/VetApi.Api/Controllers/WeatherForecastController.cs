@@ -11,6 +11,10 @@ public class WeatherForecastController : ControllerBase
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     ];
 
+    /// <summary>
+    /// Obtiene el pronóstico del clima utilizado para verificar la API.
+    /// </summary>
+    /// <returns>Lista de pronósticos.</returns>
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {

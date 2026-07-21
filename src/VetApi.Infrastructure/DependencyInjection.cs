@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using VetApi.Infrastructure.Persistence;
 
 namespace VetApi.Infrastructure;
@@ -19,6 +20,14 @@ public static class DependencyInjection
             );
 
         services.AddDbContext<VetDbContext>(options => options.UseNpgsql(connectionString));
+
+        services
+            .AddHealthChecks()
+            .AddDbContextCheck<VetDbContext>(
+                name: "postgresql",
+                failureStatus: HealthStatus.Unhealthy,
+                tags: ["database", "ready"]
+            );
 
         return services;
     }

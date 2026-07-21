@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VetApi.Api</name>
+    </assembly>
+    <members>
+        <member name="M:VetApi.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            Obtiene el pronóstico del clima utilizado para verificar la API.
+            </summary>
+            <returns>Lista de pronósticos.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,6 @@
+{
+  "VetApi.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/dragon\/proyectos\/net\/vetApi\/src\/VetApi.Api",
+  "VetApi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/dragon\/proyectos\/net\/vetApi\/src\/VetApi.Application",
+  "VetApi.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/dragon\/proyectos\/net\/vetApi\/src\/VetApi.Domain",
+  "VetApi.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/dragon\/proyectos\/net\/vetApi\/src\/VetApi.Infrastructure"
+}

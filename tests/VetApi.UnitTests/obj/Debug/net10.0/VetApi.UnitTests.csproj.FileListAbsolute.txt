@@ -100,3 +100,6 @@
 /home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/obj/Debug/net10.0/VetApi.UnitTests.genruntimeconfig.cache
 /home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/obj/Debug/net10.0/ref/VetApi.UnitTests.dll
 /home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/obj/Debug/net10.0/VetApi.UnitTests.sourcelink.json
+/home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/bin/Debug/net10.0/FluentValidation.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/bin/Debug/net10.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/dragon/proyectos/net/vetApi/tests/VetApi.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NjNA6zQZ/cU=",
+  "dgSpecHash": "APomBPXJRpY=",
   "success": true,
   "projectFilePath": "/home/dragon/proyectos/net/vetApi/src/VetApi.Application/VetApi.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/dragon/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
+    "/home/dragon/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "/home/dragon/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
