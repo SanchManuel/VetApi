@@ -5,6 +5,7 @@ using Microsoft.Extensions.Diagnostics.HealthChecks;
 using VetApi.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Identity;
 using VetApi.Infrastructure.Identity;
+using VetApi.Application.Modules.Identity.RegisterUser;
 
 namespace VetApi.Infrastructure;
 
@@ -48,6 +49,8 @@ public static class DependencyInjection
         })
         .AddRoles<IdentityRole<Guid>>()
         .AddEntityFrameworkStores<VetDbContext>();
+
+        services.AddScoped<IUserRegistrationService, UserRegistrationService>();
 
         return services;
     }
