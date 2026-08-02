@@ -18,7 +18,7 @@ namespace VetApi.Infrastructure.Identity
             var existingUser = await userManager.FindByEmailAsync(normalizedEmail);
             if (existingUser is not null)
             {
-                throw new UserRegistrationException(["A user with this email alreay exists."]);
+                throw new UserAlreadyExistsException(normalizedEmail);
             }
             await using var transaction = await dbContext.Database.BeginTransactionAsync(cancellationToken);
             try
@@ -38,12 +38,16 @@ namespace VetApi.Infrastructure.Identity
                     CreatedAtUtc = createdAtUtc
                 };
 
-                var idenityResult = await userManager.CreateAsync(user, command.Password);
+                var identityResult = await userManager.CreateAsync(user, command.Password);
 
-                if (!idenityResult.Succeeded)
+                if (!identityResult.Succeeded)
                 {
-                    var errors = idenityResult.Errors.Select(errors => errors.Description);
-                    throw new UserRegistrationException(errors);
+                    var hasDuplicateUser = identityResult.Errors.Any(error => error.Code is "DuplicateEmail" or "DuplicateUserName");
+                    if (hasDuplicateUser)
+                    {
+                        throw new UserAlreadyExistsException(normalizedEmail);
+                    }
+                    throw new UserRegistrationException(identityResult.Errors.Select(error => error.Description));
                 }
 
                 var clinic = new VeterinaryClinic(
