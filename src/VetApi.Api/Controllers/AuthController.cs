@@ -24,7 +24,7 @@ namespace VetApi.Api.Controllers
             this.validator = validator;
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         [ProducesResponseType<RegisterUserResponse>(StatusCodes.Status201Created)]
         [ProducesResponseType<ValidationProblemDetails>(StatusCodes.Status400BadRequest)]
         [ProducesResponseType<ProblemDetails>(StatusCodes.Status409Conflict)]
